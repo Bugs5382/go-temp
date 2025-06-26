@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	_ "github.com/prometheus/client_golang/prometheus/promhttp"
 	"go-temp/rabbitmq"
 	"go-temp/utils"
 	"log"

@@ -91,7 +91,7 @@ var healthy = true
 
 func main() {
 
-	err := utils.SetupFileLogger("log/ms-temp-sensor.log")
+	err := utils.SetupFileLogger("log/go-temp-sensor.log")
 	if err != nil {
 		log.Fatalf("Failed to set up log file: %v", err)
 	}
